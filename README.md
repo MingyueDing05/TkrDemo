@@ -1,4 +1,4 @@
-# TkrDemo - OO parser and generator
+# TkrDemo - OO parser and GUI generator
 
 This is a demo for an OO parser and generator that parses a syntax language and generates QT-based GUI. The parser reads in the language in python comments and generates an AST. Based on the AST, the geneartor recursively builds layouts holding different widgets. 
 
