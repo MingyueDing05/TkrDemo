@@ -7,6 +7,7 @@ This is a demo for an OO parser that parses a syntax language and generates QT-b
 
 syntax langeuage:
 
+```python
 """
 PROGRAM test "Hello" OPTION
     FUNCTION function1 one
@@ -39,15 +40,15 @@ PROGRAM test "Hello" OPTION
                 DESC this is a file
                 DEFAULT xxx.txt
             END VAR
-            VAR variable9 "Help" directory
+            VAR variable9 "Directory" directory
                 DESC this is a directory
                 DEFAULT X:/xxx/xxx/xxx
             END VAR
-            VAR variable10 "Run" Layer
+            VAR variable10 "Layer" Layer
                 DESC this is a Layer
                 choices all
             END VAR
-            VAR variable11 "Cancel" combo
+            VAR variable11 "Combo" combo
                 DESC this is a combo
                 CHOICES TEST_A TEST_B TEST_C TEST_D TEST-E
                 DEFAULT TEST_D
@@ -60,6 +61,7 @@ PROGRAM test "Hello" OPTION
     END FUNCTION
 END PROGRAM
 """
+```
 
 Generated GUI:
 <img width="330" height="305" alt="demo" src="https://github.com/user-attachments/assets/c1906fff-f087-49a0-a4f3-5ca157745fcc" />
