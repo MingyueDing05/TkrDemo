@@ -1,11 +1,11 @@
 # TkrDemo
 
-This is a demo for an OO parser that parses a syntax language and generates QT-based GUI.The parser reads in the language in python comments and generates an AST.
+This is a demo for an OO parser and generater that parses a syntax language and generates QT-based GUI. The parser reads in the language in python comments and generates an AST. Based on the AST, the genearter recursively builds layouts holding different widgets. 
 
 
 ## Example
 
-syntax langeuage:
+Syntax langeuage:
 
 ```python
 """
@@ -64,4 +64,5 @@ END PROGRAM
 ```
 
 Generated GUI:
+
 <img width="330" height="305" alt="demo" src="https://github.com/user-attachments/assets/c1906fff-f087-49a0-a4f3-5ca157745fcc" />
